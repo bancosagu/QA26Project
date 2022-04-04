@@ -12,7 +12,7 @@ public class LogicalOperations {
         // Moodle exercise 5
         System.out.println("Moodle exercise 5");
         String text = "FastTrack";
-        int numberEx5 = 6;
+        int numberEx5 = 3;
 
         System.out.println(verifyTextAndNumber(text,numberEx5) + "\n");
 
@@ -46,7 +46,33 @@ public class LogicalOperations {
         int number1 = 5;
         int number2 = 10;
         int number3 = 7;
-        System.out.println("The greater number is " + whichNumberIsGreater(number1, number2, number3) + "\n");
+        System.out.println("The greatest number is " + whichNumberIsGreater(number1, number2, number3) + "\n");
+
+        // Assignment 1
+        System.out.println("Assignment 1");
+        int numberAs1x = 5;
+        int numberAs1y = 8;
+        System.out.println("The greatest number is " + printGreaterNumber(numberAs1x, numberAs1y) + "\n");
+
+        // Assignment 2
+        System.out.println("Assignment 2 is the same as Moodle exercise 4" + "\n");
+
+        // Assignment 3
+        System.out.println("Assignment 3");
+        int numberAs3 = 5;
+        System.out.println(isNumberBetweenTwooAndEight(numberAs3) + "\n");
+
+        // Assignment 4
+        System.out.println("Assignment 4");
+        System.out.println("Assignment 4 is the same as Moodle exercise 5" + "\n");
+
+
+
+
+
+
+
+
 
 
 
@@ -59,7 +85,7 @@ public class LogicalOperations {
 
     public static String verifyTextFastTrack(String text) {
         if (text.equals("FastTrack")) {
-            return "learning text comparison";
+            return "Learning text comparison";
         } else {
             return "Got to try some more";
         }
@@ -148,13 +174,28 @@ public class LogicalOperations {
             return number3;
         }
     }
-//    public static int numberEx3(int number) {
-//        if (number >= 2 && number < 8) {
-//            return number;
-//        } else {
-//            return 0;
-//        }
-//    }
+
+    // Assignment 1
+    public static int printGreaterNumber(int numberAs1x, int numberAs1y){
+        if (numberAs1x > numberAs1y){
+            return numberAs1x;
+        } else if (numberAs1y > numberAs1x){
+            return numberAs1y;
+        } else {
+            return numberAs1x;
+        }
+    }
+
+    // Assignment 3
+    public static int isNumberBetweenTwooAndEight(int numberAs3) {
+        if (numberAs3 >= 2 && numberAs3 < 8) {
+            return numberAs3;
+        } else {
+            return 0;
+        }
+    }
+
+    // Assignment 5
 
 
 //    public static int getMax(int first, int second) {
