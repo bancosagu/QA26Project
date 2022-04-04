@@ -62,8 +62,6 @@ public class Lab2Main {
         System.out.println(viteza[2]);
 
 
-
-
     }
 
 
@@ -192,5 +190,6 @@ public class Lab2Main {
         return array;
 
     }
+
 }
 
