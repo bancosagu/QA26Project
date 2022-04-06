@@ -1,5 +1,8 @@
 package calculator;
 
+import java.util.Collections;
+import java.util.Arrays;
+
 public class LogicalOperations {
 
     public static void main(String[] args) {
@@ -28,7 +31,7 @@ public class LogicalOperations {
 
         // Moodle exercise 8
 //        System.out.println("Moodle exercise 8");
-//        int numberEx8 = 3;
+//        int numberEx8 = 5;
 //        System.out.println(showTheNumber(numberEx8) + "\n");
 
         // Moodle exercise 9
@@ -67,19 +70,57 @@ public class LogicalOperations {
         System.out.println("Assignment 4 is the same as Moodle exercise 5" + "\n");
 
 
+        // Assignment 5
+        System.out.println("Assignment 5");
+        System.out.println("Assignment 5 is the same as Moodle exercise 6" + "\n");
+
+        // Assignment 6
+        System.out.println("Assignment 6");
+        System.out.println("Assignment 6 is the same as Moodle exercise 7" + "\n");
+
+        // Assignment 7
+        System.out.println("Assignment 7");
+//. If the user pressed number keys( from 0 to 9), the program will tell the number that is
+//pressed, otherwise, program will show "Not allowed”. (use a switch case for this)
+
+        // Assignment 8
+        System.out.println("Assignment 8");
+        System.out.println("Assignment 8 is the same as Moodle exercise 9" + "\n");
 
 
+        // Assignment 9
+        System.out.println("Assignment 9");
+        System.out.println("Assignment 9 is the same as Moodle exercise 10" + "\n");
+
+        // Assignment 10
+        System.out.println("Assignment 10");
+        System.out.println("Assignment 10 is the same as Moodle exercise 11" + "\n");
+
+        // Assignment 11
+//        System.out.println("Assignment 11");
+//        int[] arrayAs11 = {1, 2, 3,};
 
 
+        // Assignment 16
+        System.out.println("Assignment 16");
+        int[] numbersAs16 = {3, 7, 4,};
+
+        System.out.println("Minimum = " + numbersAs16[0]);
+        System.out.println("Maximum = " + numbersAs16[numbersAs16.length - 1]);
 
 
+        //Assignment 17
+        System.out.println("Assignment 17");
+        int numberAs17x = 5;
+        int numberAs17y = 8;
+        System.out.println("The greater number of the two is: " + sortTwoNumbers(numberAs17x, numberAs17y));
 
 
-
-
-//        System.out.println(numberEx3(number));
-//        System.out.println(getMax(12,41));
     }
+
+
+
+    //Methods
 
     // Moodle exercise 4
 
@@ -127,22 +168,24 @@ public class LogicalOperations {
 
     // Moodle exercise 8
 //    public static int showTheNumber(int numberEx8) {
-//        switch (numberEx8) {
+//        switch(numberEx8) {
 //            case 1:
-//                System.out.println("The number is 1");
-//                break;
+//                return Integer.parseInt("The number is 1");
+//
 //            case 2:
-//                System.out.println("The number is 2");
-//                break;
+//                return Integer.parseInt("The number is 2");
+//
 //            case 3:
-//                System.out.println("The number is 3");
-//                break;
+//                return Integer.parseInt("The number is 3");
+//
 //            default:
-//                System.out.println("The number is not 1, 2 or 3");
+//                return Integer.parseInt("The number is not  1, 2 or 3");
 //
 //
 //        }
+//
 //    }
+
 
     // Moodle exercise 9
     public static boolean isNumberEven(int numberEx9) {
@@ -195,19 +238,32 @@ public class LogicalOperations {
         }
     }
 
-    // Assignment 5
-
-
-//    public static int getMax(int first, int second) {
-//        if (first > second) {
-//            return first;
-//        } else {
-//            return second;
-//        }
+    // Assignment 11
+////    public static int sortNumbers(int arrayAs11) {
+////
+//
+//
+//
+//
 //    }
 
 
+    // Assignment 16
+    public static int getMinAndMax(int[] numbersAs16) {
+
+        Arrays.sort(numbersAs16);
+        return numbersAs16[0] * numbersAs16[numbersAs16.length - 1];
+    }
 
 
+    // Assignment 17
+    public static int sortTwoNumbers(int numberAs17x, int numberAs17y) {
+        if (numberAs17x > numberAs17y) {
+            return numberAs17x;
+        } else {
+            return numberAs17y;
 
+        }
+
+    }
 }
