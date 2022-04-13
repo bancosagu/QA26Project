@@ -4,64 +4,47 @@ public class Main3 {
 
     public static void main(String[] args) {
 
+            int x = 1;
+            int y = 3;
 
-        //        System.out.println(getMax(12,41));
-
-        //        System.out.println(verifyTextFastTrack("FastTrack"));
+            LogicalOperations logicalOperations = new LogicalOperations();
 
 
-//        String text = "FastTrack";
-//        int number = 6;
+        System.out.println("Exercise One");
+        logicalOperations.forExerciseOne(x);
+
+
+        System.out.println("Exercise Two");
+        logicalOperations.forExerciseTwo(x);
+
+
+        System.out.println("Exercise Three");
+        logicalOperations.forExerciseThree(x, y);
+
+
+
+
+        System.out.println("Exercise Five");
+        logicalOperations.forExerciseFive();
+
+
+        System.out.println("Exercise Six");
+        logicalOperations.forExerciseSix();
+
+
+        System.out.println("Exercise Seven");
+        logicalOperations.forExerciseSeven(x, 100);
+
+
+        System.out.println("Exercise Eight");
+        logicalOperations.forExerciseEight(x, 100);
+
+        System.out.println("Exercise Nine");
+        logicalOperations.forExerciseNine();
 //
-//        System.out.println(verifyTextAndNumber(text,number));
-
-
-//        System.out.println(snowAmount(6));
-
-        int number = 3;
-        System.out.println(numberEx3(number));
-
     }
 
-    public static int numberEx3(int number) {
-        if (number >= 2 && number < 8) {
-            return number;
-        } else {
-            return 0;
-        }
-    }
-//    public static String snowAmount(int snow){
-//        if (snow > 8 && snow == 6){
-//            return "The amount of snow this winter was: " + snow + "cm";
-//         }else {
-//            return "The forecast snow is: " + snow + "cm";
-//        }
-//    }
 
-//    public static int getMax(int first, int second) {
-//        if (first > second) {
-//            return first;
-//        } else {
-//            return second;
-//        }
-//    }
-//
-//    public static String verifyTextFastTrack(String text) {
-//        if (text.equals("FastTrack")) {
-//            return "learning text comparison";
-//        } else {
-//            return "Got to try some more";
-//        }
-//    }
-//
-//    public static String verifyTextAndNumber(String text, int number){
-//        if (text.equals("FastTrack") && number <= 3) {
-//            return  text + number;
-//        } else if (!text.equals("FastTrack") && number >= 4) {
-//            return number + text;
-//        } else {
-//            return "";
-//        }
-//    }
+
 }
 
