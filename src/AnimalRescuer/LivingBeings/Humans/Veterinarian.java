@@ -1,12 +1,10 @@
-package AnimalRescuer;
+package AnimalRescuer.LivingBeings.Humans;
 
-public class Veterinarian {
-    private String name;
+public class Veterinarian extends Humans {
+
     private String specialization;
     private double price;
 
-    public String getName(){return this.name; }
-    public void setName(String name){this.name = name; }
 
     public String getSpecialization(){return this.specialization; }
     public void setSpecialization(String specialization){this.specialization = specialization; }

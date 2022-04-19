@@ -1,5 +1,10 @@
 package AnimalRescuer;
 
+import AnimalRescuer.LivingBeings.Animal.Dog.Dog;
+import AnimalRescuer.LivingBeings.Humans.Boy;
+import AnimalRescuer.LivingBeings.Humans.Girl;
+import AnimalRescuer.LivingBeings.Humans.Veterinarian;
+
 public class AppMain {
     public static void main(String[] args) {
 //        Dog constantin = new Dog();
@@ -26,7 +31,7 @@ public class AppMain {
         girl.setAgeInYears(7);
         girl.setMoneyAvailable(23);
 
-        DogFood food = new DogFood();
+        PetFood food = new PetFood();
         food.setStock(56);
         food.setBrand("WoofIt");
         food.setQuantity(5);

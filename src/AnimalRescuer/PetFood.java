@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class DogFood {
+public class PetFood {
     private double price;
     private double quantity;
     private String brand;
