@@ -16,7 +16,6 @@ public class Animal extends LivingBeings {
         this.color = color;
     }
 
-
     public int getAgeInMonths() {
         return ageInMonths;
     }
@@ -32,6 +31,4 @@ public class Animal extends LivingBeings {
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
-
-
 }

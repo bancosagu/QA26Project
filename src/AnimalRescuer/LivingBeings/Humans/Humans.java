@@ -32,4 +32,9 @@ public class Humans extends LivingBeings {
     public void setAdult(boolean adult) {
         isAdult = adult;
     }
+
+    @Override
+    public void speak() {
+        System.out.println("Hello");
+    }
 }

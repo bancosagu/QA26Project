@@ -75,6 +75,28 @@ public class LogicalOperations {
 
     }
 
+
+
+    public void ex2PopulateArrayToOneHundreed(int[] array){
+        int pos = 0;
+        for (int i=1; i<=100; i++){
+            array[pos] = i;
+            pos++;
+        }
+
+    }
+
+    public void ex3PopulateArrayEvenNumber(int[] array){
+        int pos = 0;
+        for (int i=1; i<=100; i++){
+            if(i%2 ==0){
+                array[pos] = i;
+                pos++;
+            }
+        }
+
+    }
+
     public int[] populateArrayToNumber(int max){
         int[] myArray = new int[max];
         for (int i = 0; i < myArray.length; i++){
@@ -103,18 +125,7 @@ public class LogicalOperations {
 
 
 
-//    public int populateArrayWithEvenNumbers(int[] evenArray){
-//        int pos = 0;
-//        for (int i = 0; i <=100; i++){
-//            if(i%2==0){
-//                evenArray[pos] = i;
-//                System.out.println(evenArray[i]);
-//            }
-//            pos++;
-//
-//        }
-//        return evenArray;
-//    }
+
 
 
 }

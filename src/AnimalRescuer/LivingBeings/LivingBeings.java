@@ -28,4 +28,8 @@ public class LivingBeings {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public void speak(){
+        System.out.println("sound");
+    }
 }
