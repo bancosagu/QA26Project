@@ -16,14 +16,16 @@ public class Lists {
 
         List<Integer> listOne = new ArrayList<>();
         for (int i = 0; i <= number; i++) {
-            listOne.add(i + 1);
+            listOne.add(i);
 
         }
             return listOne;
     }
 
-//    public void printListOne(List<Integer>){
-//
-//            System.out.println(listOne().get());
+    public void printListOne(List<Integer> list, int number){
+        for(int i = number; i < list.size(); i++){
+            System.out.println(list.get(i));
+        }
+    }
 
     }

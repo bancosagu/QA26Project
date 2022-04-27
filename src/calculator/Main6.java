@@ -27,8 +27,9 @@ public class Main6 {
         Lists lists = new Lists();
 
         List<Integer> listOne = lists.listOne(15);
-        System.out.println(listOne);
-//listOne.forEach(System.out::println);
+        lists.printListOne(listOne, 1);
+
+
 
 
 
